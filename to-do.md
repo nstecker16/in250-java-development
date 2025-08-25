@@ -1,8 +1,13 @@
 # To Do
 
-## Unit 1
+## General
 
-- [ ] Declare strings that outline student information from assignment guidelines
+- [ ] Create README.md
+- [ ] Create unit-objectives.md to outline what each assignment's objectives are
+
+## Unit 1 Assignment
+
+- [X] Declare strings that outline student information from assignment guidelines
 - [ ] Declare constant variables for prices and AI parameters
 - [ ] Convert the string value for Units Taken to an integer data type and place the converted numeric value into a separate numeric variable
 - [ ] Increment above variable by 1
