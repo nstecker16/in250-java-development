@@ -8,7 +8,7 @@ public class ConvertingToInt {
 		String myString = "100";
 		
 		// Converting myString to an integer
-		int myInt = myString;
+		int myInt = Integer.parseInt(myString);
 		
 		// Displaying myInt
 		System.out.println(myInt);
