@@ -8,7 +8,7 @@
 ## Unit 1 Assignment
 
 - [X] Declare strings that outline student information from assignment guidelines
-- [ ] Declare constant variables for prices and AI parameters
+- [X] Declare constant variables for prices and AI parameters
 - [ ] Convert the string value for Units Taken to an integer data type and place the converted numeric value into a separate numeric variable
 - [ ] Increment above variable by 1
 - [ ] Calculate the initial tuition by multiplying the constant variable for price per unit by the units taken
