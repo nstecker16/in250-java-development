@@ -2,6 +2,10 @@
 
 package org.nathan.in252.unit1;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+import java.util.locale;
+
 public class IN252_U1M1 {
 
 	public static void main(String[] args) {
@@ -33,6 +37,19 @@ public class IN252_U1M1 {
 		// Calculating AI-adjusted discount based on performance
 		double aiAdjustedDiscount = baseDiscount;
 		
+		// If statement increasing discount if performance is good
+		if (prevPerformance == "Good") {
+			aiAdjustedDiscount *= aiPerformanceMultiplier;
+		}
+		
+		// Calculating final tuition costs
+		double afterDiscount = initTuition - aiAdjustedDiscount;
+		double monthlyPayment = afterDiscount / 12.0;
+		
+		// Currency formatting
+		NumberFormat currencyFormatUS = NumberFormat.getCurrencyInstance(Locale.US);
+		
+		// Final printout
 		
 		
 	}
