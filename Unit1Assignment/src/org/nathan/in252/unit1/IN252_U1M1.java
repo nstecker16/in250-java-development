@@ -21,7 +21,20 @@ public class IN252_U1M1 {
 		final double baseDiscount = 150;
 		final double aiPerformanceMultiplier = 1.1;
 		
-		// 
+		// Converting string unitsTaken to integer
+		int intUnitsTaken = Integer.parseInt(unitsTaken);
+		
+		// Incrementing unitsTaken by 1
+		intUnitsTaken++;
+		
+		// Calculating initial tuition
+		double initTuition = pricePerUnit * intUnitsTaken;
+		
+		// Calculating AI-adjusted discount based on performance
+		double aiAdjustedDiscount = baseDiscount;
+		
+		
+		
 	}
 
 }
