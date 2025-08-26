@@ -13,7 +13,7 @@ public class IN252_U1M1 {
 		// Declaring strings outlining student information
 		String name = "John Smith";
 		String address = "101 N. Main Street";
-		String city = "anytown";
+		String city = "Anytown";
 		String state = "Texas";
 		String zip = "11111";
 		String unitsTaken = "19";
@@ -47,6 +47,10 @@ public class IN252_U1M1 {
 		
 		// Currency formatting
 		NumberFormat currencyFormatUS = NumberFormat.getCurrencyInstance(Locale.US);
+		String formattedInitTuition = currencyFormatUS.format(initTuition);
+		String formattedAiAdjustedDiscount = currencyFormatUS.format(aiAdjustedDiscount);
+		String formattedAfterDiscount = currencyFormatUS.format(afterDiscount);
+		String formattedMonthlyPayment = currencyFormatUS.format(monthlyPayment);
 		
 		// Final printout
 		System.out.println("Name: " + name);
@@ -55,10 +59,10 @@ public class IN252_U1M1 {
 		System.out.println("State: " + state);
 		System.out.println("ZIP Code: " + zip);
 		System.out.println("AI-Recommended Units: " + intUnitsTaken);
-		System.out.println("Original Tuition: " + initTuition);
-		System.out.println("AI-adjusted discount: " + aiAdjustedDiscount);
-		System.out.println("Final Tuition: " + afterDiscount);
-		System.out.println("AI-recommended monthly payment: " + monthlyPayment);
+		System.out.println("Original Tuition: " + formattedInitTuition);
+		System.out.println("AI-adjusted discount: " + formattedAiAdjustedDiscount);
+		System.out.println("Final Tuition: " + formattedAfterDiscount);
+		System.out.println("AI-recommended monthly payment: " + formattedMonthlyPayment);
 		
 	}
 
