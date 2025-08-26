@@ -8,7 +8,6 @@ import java.util.Locale;
 public class IN252_U1M1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		// Declaring strings outlining student information
 		String name = "John Smith";
