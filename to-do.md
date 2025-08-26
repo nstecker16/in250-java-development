@@ -14,7 +14,7 @@
 - [X] Calculate the initial tuition by multiplying the constant variable for price per unit by the units taken
 - [X] Apply the AI-adjusted discount and store the result
 - [X] Calculate the AI-recommended monthly payment by dividing the discounted tuition by 12
-- [ ] Display data
+- [X] Display data
 	- Student information
 	- Number of units taken
 	- Original tuition amount
