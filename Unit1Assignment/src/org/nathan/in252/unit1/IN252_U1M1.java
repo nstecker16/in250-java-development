@@ -47,10 +47,6 @@ public class IN252_U1M1 {
 		
 		// Currency formatting
 		NumberFormat currencyFormatUS = NumberFormat.getCurrencyInstance(Locale.US);
-		String formattedInitTuition = currencyFormatUS.format(initTuition);
-		String formattedAiAdjustedDiscount = currencyFormatUS.format(aiAdjustedDiscount);
-		String formattedAfterDiscount = currencyFormatUS.format(afterDiscount);
-		String formattedMonthlyPayment = currencyFormatUS.format(monthlyPayment);
 		
 		// Final printout
 		System.out.println("Name: " + name);
@@ -59,10 +55,10 @@ public class IN252_U1M1 {
 		System.out.println("State: " + state);
 		System.out.println("ZIP Code: " + zip);
 		System.out.println("AI-Recommended Units: " + intUnitsTaken);
-		System.out.println("Original Tuition: " + formattedInitTuition);
-		System.out.println("AI-adjusted discount: " + formattedAiAdjustedDiscount);
-		System.out.println("Final Tuition: " + formattedAfterDiscount);
-		System.out.println("AI-recommended monthly payment: " + formattedMonthlyPayment);
+		System.out.println("Original Tuition: " + currencyFormatUS.format(initTuition));
+		System.out.println("AI-adjusted discount: " + currencyFormatUS.format(aiAdjustedDiscount));
+		System.out.println("Final Tuition: " + currencyFormatUS.format(afterDiscount));
+		System.out.println("AI-recommended monthly payment: " + currencyFormatUS.format(monthlyPayment));
 		
 	}
 
