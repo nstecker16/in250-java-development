@@ -37,7 +37,7 @@ public class IN252_U1M1 {
 		double aiAdjustedDiscount = baseDiscount;
 		
 		// If statement increasing discount if performance is good
-		if (prevPerformance == "Good") {
+		if (prevPerformance.equals("Good")) {
 			aiAdjustedDiscount *= aiPerformanceMultiplier;
 		}
 		
