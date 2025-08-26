@@ -4,7 +4,6 @@ package org.nathan.in252.unit1;
 
 import java.text.NumberFormat;
 import java.util.Locale;
-import java.util.locale;
 
 public class IN252_U1M1 {
 
@@ -50,7 +49,16 @@ public class IN252_U1M1 {
 		NumberFormat currencyFormatUS = NumberFormat.getCurrencyInstance(Locale.US);
 		
 		// Final printout
-		
+		System.out.println("Name: " + name);
+		System.out.println("Address: " + address);
+		System.out.println("City: " + city);
+		System.out.println("State: " + state);
+		System.out.println("ZIP Code: " + zip);
+		System.out.println("AI-Recommended Units: " + intUnitsTaken);
+		System.out.println("Original Tuition: " + initTuition);
+		System.out.println("AI-adjusted discount: " + aiAdjustedDiscount);
+		System.out.println("Final Tuition: " + afterDiscount);
+		System.out.println("AI-recommended monthly payment: " + monthlyPayment);
 		
 	}
 
