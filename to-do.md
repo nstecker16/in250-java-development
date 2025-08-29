@@ -21,3 +21,47 @@
 	- AI-adjusted discount amount
 	- Final tuition after discount
 	- AI-recommended monthly payment
+
+## Unit 2 Assignment
+
+### Section 1 - Sentiment Analysis Comparisons
+
+- [ ] Insert comment w section title and what this section does related to AI decision-making
+- [ ] Request two sentiment scores from user
+- [ ] Compare entered sentiment scores with all logical operators
+- [ ] Print interpretation of comparisons
+
+### Section 2 - Image Classification Confidence
+
+- [ ] Insert comment w section title and what this section does related to AI decision-making
+- [ ] Request a confidence score from user
+- [ ] Construct if-else statement to compare entered score with a threshold of 70
+    - If >= 70, print "Classification confidence sufficient for automated decision."
+    - If <= 70, print "Human review required due to low confidence."
+
+### Section 3 - Machine Learning (ML) Model Selection
+
+- [ ] Insert comment w section title and what this section does related to AI decision-making
+- [ ] Request a number input between 1-12
+    - 1-3 = supervised learning
+    - 4-6 = unsupervised learning
+    - 7-9 = reinforcement learning
+    - 10-12 = deep learning
+- [ ] Using is-else-if statements determine category and specific algorithm type
+- [ ] Print selected algorithm type and common use cases (found in pseudocode file)
+- [ ] Include a default error message for invalid number input
+
+### Section 4 - Neural Network Layer Types
+
+- [ ] Insert comment w section title and what this section does related to AI decision-making
+- [ ] Request a number input between 1-7
+    - 1 = input layer
+    - 2 = convolutional layer
+    - 3 = pooling layer
+    - 4 = dense layer
+    - 5 = dropout layer
+    - 6 = activation layer
+    - 7 = output layer
+- [ ] Construct switch statement to determing which layer was selected
+- [ ] Print selected layer with typical use cases and characteristics (found in pseudocode file)
+- [ ] Include a default error message for invalid number input
