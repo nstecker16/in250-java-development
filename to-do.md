@@ -26,10 +26,10 @@
 
 ### Section 1 - Sentiment Analysis Comparisons
 
-- [ ] Insert comment w section title and what this section does related to AI decision-making
-- [ ] Request two sentiment scores from user
-- [ ] Compare entered sentiment scores with all logical operators
-- [ ] Print interpretation of comparisons
+- [X] Insert comment w section title and what this section does related to AI decision-making
+- [X] Request two sentiment scores from user
+- [X] Compare entered sentiment scores with all logical operators
+- [X] Print interpretation of comparisons
 
 ### Section 2 - Image Classification Confidence
 
