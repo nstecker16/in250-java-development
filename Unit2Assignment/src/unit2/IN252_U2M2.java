@@ -49,5 +49,26 @@ public class IN252_U2M2 {
 		if (sentiment1 >= sentiment2) {
 			System.out.println("Text A is not more negative than Text B");
 		}
+
+		/* Section 2: Image Classification Confidence
+		 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		 * Requesting a confidence value from an AI image classifier
+		 * to determine if human review is required to complete
+		 * the classification based on a confidence threshold of 70
+		 */
+
+		// Indicating section
+		System.out.println("\nSection 2: Image Classification Confidence");
+
+		// Requesting input of confidence score and assigning scanner variable
+		System.out.println("Enter classification confidence score (0-100): ");
+		int confidenceScore = scanner.nextInt();
+
+		// Comparing score to threshold
+		if (confidenceScore >= 70) {
+			System.out.println("Classification confidence sufficient for automated decision.");
+		} else {
+			System.out.println("Human review required due to low confidence.");
+		}
 	}
 }
