@@ -33,9 +33,9 @@
 
 ### Section 2 - Image Classification Confidence
 
-- [ ] Insert comment w section title and what this section does related to AI decision-making
-- [ ] Request a confidence score from user
-- [ ] Construct if-else statement to compare entered score with a threshold of 70
+- [X] Insert comment w section title and what this section does related to AI decision-making
+- [X] Request a confidence score from user
+- [X] Construct if-else statement to compare entered score with a threshold of 70
     - If >= 70, print "Classification confidence sufficient for automated decision."
     - If <= 70, print "Human review required due to low confidence."
 
