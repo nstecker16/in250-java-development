@@ -41,15 +41,15 @@
 
 ### Section 3 - Machine Learning (ML) Model Selection
 
-- [ ] Insert comment w section title and what this section does related to AI decision-making
-- [ ] Request a number input between 1-12
+- [X] Insert comment w section title and what this section does related to AI decision-making
+- [X] Request a number input between 1-12
     - 1-3 = supervised learning
     - 4-6 = unsupervised learning
     - 7-9 = reinforcement learning
     - 10-12 = deep learning
-- [ ] Using is-else-if statements determine category and specific algorithm type
-- [ ] Print selected algorithm type and common use cases (found in pseudocode file)
-- [ ] Include a default error message for invalid number input
+- [X] Using is-else-if statements determine category and specific algorithm type
+- [X] Print selected algorithm type and common use cases (found in pseudocode file)
+- [X] Include a default error message for invalid number input
 
 ### Section 4 - Neural Network Layer Types
 
