@@ -160,5 +160,24 @@ public class IN252_U2M2 {
 			System.out.println("Error: number value not recognized");
 
 		}
+
+		/* Section 4: Neural Network Layer Types
+		 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		 * Requesting input from user to get information
+		 * about various neural network layers
+		 */
+
+		// Indicating section
+		System.out.println("\nSection 4: Neural Network Layer Types");
+
+		// Requesting input from user and assigning scanner variable
+		System.out.println("Enter number between 1-7 to select Neural Network layer: ");
+		System.out.println("* 1 = Input\n* 2 = Convolutional\n* 3 = Pooling\n* 4 = Dense\n* 5 = Dropout\n* 6 = Activation\n* 7 = Output");
+		int layerSelection = scanner.nextInt();
+
+		// Switch statement outputting information based on user choice
+		switch (layerSelection) {
+			case 1:
+
 	}
 }
