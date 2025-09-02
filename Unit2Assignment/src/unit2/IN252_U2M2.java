@@ -70,5 +70,95 @@ public class IN252_U2M2 {
 		} else {
 			System.out.println("Human review required due to low confidence.");
 		}
+
+		/* Section 3: Machine Learning (ML) Model Selection
+		 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		 * Requesting input from user to select which ML algorithm
+		 * to use for analysis
+		 */
+
+		// Indicating section
+		System.out.println("\nSection 3: Machine Learning (ML) Model Selection");
+
+		// Requesting input from user and assigning scanner variable
+		System.out.println("Enter number from 1-12 to select Machine Learning algorithm: ");
+		System.out.println("* 1-3 = Supervised Learning\n* 4-6 = Unsupervised Learning\n* 7-9 = Reinforcement Learning\n* 10-12 = Deep Learning");
+		int modelSelection = scanner.nextInt();
+
+		// If-ElseIf-Else statement to determine model category
+		if (modelSelection >= 1 && modelSelection <= 3) {
+			
+			// Indicating model category selection
+			System.out.println("Category: Supervised Learning");
+
+			// If-ElseIf-Else statement to determine specific model
+			if (modelSelection == 1) {
+				System.out.println("Algorithm: Linear Regression");
+				System.out.println("Use Case: Predictive modeling with continuous output");
+			} else if (modelSelection == 2) {
+				System.out.println("Algorithm: Random Forest");
+				System.out.println("Use Case: Classification with multiple features");
+			} else {
+				System.out.println("Algorithm: Support Vector Machine");
+				System.out.println("Use Case: Binary classification with complex boundaries");
+			}
+
+		} else if (modelSelection >= 4 && modelSelection <= 6) {
+
+			// Indicating model category selection
+			System.out.println("Category: Unsupervised Learning");
+
+			// If-ElseIf-Else statement to determine specific model
+			if (modelSelection == 4) {
+				System.out.println("Algorithm: K-Means Clustering");
+				System.out.println("Use Case: Customer segmentation");
+			} else if (modelSelection == 5) {
+				System.out.println("Algorithm: Principal Component Analysis");
+				System.out.println("Use Case: Dimensionality reduction");
+			} else {
+				System.out.println("Algorithm: DBSCAN");
+				System.out.println("Use Case: Density-based clustering");
+			}
+
+		} else if (modelSelection >= 7 && modelSelection <= 9) {
+
+			// Indicating model category selection
+			System.out.println("Category: Reinforcement Learning");
+
+			// If-ElseIf-Else statement to determine specific model
+			if (modelSelection == 7) {
+				System.out.println("Algorithm: Q-Learning");
+				System.out.println("Use Case: Game AI and robotics control");
+			} else if (modelSelection == 8) {
+				System.out.println("Algorithm: SARSA");
+				System.out.println("Use Case: Real-time decision making");
+			} else {
+				System.out.println("Algorithm: Deep Q Network");
+				System.out.println("Use Case: Complex environment interaction");
+			}
+
+		} else if (modelSelection >= 10 && modelSelection <= 12) {
+
+			// Indicating model category selection
+			System.out.println("Category: Supervised Learning");
+
+			// If-ElseIf-Else statement to determine specific model
+			if (modelSelection == 10) {
+				System.out.println("Algorithm: Convolutional Neural Network");
+				System.out.println("Use Case: Image recognition");
+			} else if (modelSelection == 11) {
+				System.out.println("Algorithm: Recurrent Neural Network");
+				System.out.println("Use Case: Sequential data processing");
+			} else {
+				System.out.println("Algorithm: Transformer");
+				System.out.println("Use Case: Natural language processing");
+			}
+
+		} else {
+
+			// Default error code for number entered outside of 1-12
+			System.out.println("Error: number value not recognized");
+
+		}
 	}
 }
