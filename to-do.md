@@ -53,8 +53,8 @@
 
 ### Section 4 - Neural Network Layer Types
 
-- [ ] Insert comment w section title and what this section does related to AI decision-making
-- [ ] Request a number input between 1-7
+- [X] Insert comment w section title and what this section does related to AI decision-making
+- [X] Request a number input between 1-7
     - 1 = input layer
     - 2 = convolutional layer
     - 3 = pooling layer
@@ -62,6 +62,6 @@
     - 5 = dropout layer
     - 6 = activation layer
     - 7 = output layer
-- [ ] Construct switch statement to determing which layer was selected
-- [ ] Print selected layer with typical use cases and characteristics (found in pseudocode file)
-- [ ] Include a default error message for invalid number input
+- [X] Construct switch statement to determing which layer was selected
+- [X] Print selected layer with typical use cases and characteristics (found in pseudocode file)
+- [X] Include a default error message for invalid number input
