@@ -65,3 +65,15 @@
 - [X] Construct switch statement to determing which layer was selected
 - [X] Print selected layer with typical use cases and characteristics (found in pseudocode file)
 - [X] Include a default error message for invalid number input
+
+## Unit 3 Assignment
+
+### Section 1 - Training Data Processing
+
+- [ ] Insert comment with section title and what this section does related to the AI-related scenario
+- [ ] Create necessary variables for the scenario
+- [ ] Request user to enter the number of training samples to process
+- [ ] Initiate a while loop that asks for user to input a number (0-100) representing a classification accuracy value and adds values to a running total
+- [ ] Calculate the average accuracy across the number of training samples
+
+
